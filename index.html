@@ -22,38 +22,18 @@
             background-image: url("background.jpg");
             background-size: cover;
             background-position: center;
-            margin: 0;
-            padding: 0;
-        }
-        .main-wrapper {
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-        #sentence {
-            font-size: 2rem;
-        }
-        .foot-1 {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .btn {
-            margin-top: 1rem;
-            padding: 0.5rem 1rem;
-            font-size: 1rem;
         }
     </style>
   </head>
   <body>
 
-    <div class="main-wrapper">
+    <div class="main-wrapper" style="position: relative; top: -6vh;">
       <div class="container main-sentence justify-content-center text-center">
-        <span id="sentence"></span>
+        <span id="sentence" style="font-size: 2rem;"></span>
       </div>
     </div>
 
-    <div class="foot-1">
+    <div class="foot-1" style="position: absolute; bottom: 7vh;width: 100%;">
       <div class="container">
         <div class="row">
           <div class="col text-center">
